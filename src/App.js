@@ -1,11 +1,14 @@
-import React from 'react'
-
+import React from "react";
+import Cards from "./components/Cards";
+import "./App.css";
 function App() {
   return (
     <div>
-      <h1>Hello</h1>
+      <div className="App">
+        <Cards />
+      </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
