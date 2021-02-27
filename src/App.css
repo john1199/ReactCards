@@ -1,5 +1,4 @@
 .App {
-  height: 100vh;
   background: #556270; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -13,6 +12,10 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-img {
-  max-width: 200px;
+/* Medium devices (landscape tablets, 768px and up) 
+*/
+@media only screen and (min-width: 768px) {
+  .App {
+    height: 100vh;
+  }
 }

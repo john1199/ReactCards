@@ -7,8 +7,8 @@ function Card(props) {
   const { title, image, url } = props.card;
   return (
     <div className="card text-center bg-dark animate__animated animate__zoomInDown mb-4">
-      <div className="overflow p-4 ">
-        <img src={image} className="card-img-top" alt="" />
+      <div className="overflow p-3">
+        <img src={image} className="card-img-top" alt="logo" />
       </div>
       <div className="card-body text-light">
         <h4 className="card-title">{title}</h4>
@@ -20,7 +20,7 @@ function Card(props) {
         </div>
         <a
           href={url}
-          className="btn btn-outline-secondary rounded-0"
+          className="btn btn-outline-info rounded-0"
           rel="noreferrer"
           target="_blank"
         >
